@@ -227,7 +227,7 @@ export class HomePublicScene extends React.Component { // eslint-disable-line
             </Left>
             <Body style={headerStyle.bodyView}>
               <Row style={styleSignIn.rowCenter}>
-                <CustomIcon name='logo' size={27} style={headerStyle.logo}/>
+                {/* <CustomIcon name='logo' size={27} style={headerStyle.logo}/> */}
                 <Text style={headerStyle.homeTitle}>Public Stock</Text>
               </Row>
             </Body>
